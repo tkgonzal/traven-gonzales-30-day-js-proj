@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaporwave {
+    color: white;
+    /* Image taken from Tumblr */
+    background-image: url("./assets/vaporwavebg.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
